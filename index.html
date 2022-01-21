@@ -27,7 +27,7 @@
         var todo_num = 0;
 function saveToDo(){
 var todo_name = document.getElementById('todo-name').value
-document.getElementById('list').innerHTML += "<div class=\"list-todo\" id"+"=\"delete-"+todo_num+"\"><span>"+todo_name+"</span><pre> <span>                                                       "+todo_name.length+"</span> </pre> <a href=\"javascript:del(\'delete-"+todo_num+"\');\"><i class=\"fas fa-trash\"></i></a></div>";
+document.getElementById('list').innerHTML += "<div class=\"list-todo\" id"+"=\"delete-"+todo_num+"\"><span>"+todo_name+"</span><pre> <span>"+todo_name.length+"</span> </pre> <a href=\"javascript:del(\'delete-"+todo_num+"\');\"><i class=\"fas fa-trash\"></i></a></div>";
 document.getElementById('delete-'+todo_num).style.animation = "animate-todo-list 0.5s ease-in 1s both";
 todo_num +=1;
 document.getElementById("tayan2").innerhtml = neetesh420;
